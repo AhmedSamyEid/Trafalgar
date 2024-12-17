@@ -65,7 +65,7 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
-.home {
+.home  {
   color: var(--title-color);
 }
 li {
@@ -137,6 +137,12 @@ label {
   .services p {
     width: 80%;
   }
+  .Trafalgar,
+  .Leading,
+  .cols,
+  .learn {
+    display: none;
+  }
 }
 .services p {
   margin-left: 7%;
@@ -161,17 +167,17 @@ label {
   width: 60%;
 }
 .virtual-healthcare {
-  margin: -380px 0 0 100px;
+  margin: -300px 0 0 100px;
 }
 .virtual-healthcare h1 {
   font-weight: bold;
   font-size: var(--h1-size);
 }
-.virtual-healthcare p {
+.virtual-healthcare p  {
   line-height: 25px;
   color: var(--text-color);
 }
-.consult-today a {
+.consult-today a , .about{
   color: var(--alt-text-color);
 }
 .consult-today {
@@ -189,7 +195,8 @@ label {
   margin-top: 400px;
 }
 .services,
-.service-icon {
+.service-icon,
+.customer {
   text-align: center;
 }
 .services h2 {
@@ -212,4 +219,38 @@ label {
   text-align: start;
   height: 250px;
   background-color: var(--alt-text-color);
+}
+.apps {
+  margin-top: 900px;
+}
+.providers {
+  margin-left: 60%;
+}
+.providerss,
+.testimonials {
+  margin-top: 320px;
+}
+.providers a,
+.providerss a {
+  padding: 20px;
+  border-radius: 50px;
+  color: var(--main-color);
+  border: solid 1px #3759c8;
+}
+.about {
+  margin-left: 15%;
+  height: 300px;
+  background-color: var(--main-color);
+  position: relative;
+  width: 70%;
+  border-radius: 15px;
+}
+.edward {
+  padding: 0 50px;
+  line-height: 30px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
 }
