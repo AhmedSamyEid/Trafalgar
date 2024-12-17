@@ -65,7 +65,7 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
-.home  {
+.home {
   color: var(--title-color);
 }
 li {
@@ -173,11 +173,12 @@ label {
   font-weight: bold;
   font-size: var(--h1-size);
 }
-.virtual-healthcare p  {
+.virtual-healthcare p {
   line-height: 25px;
   color: var(--text-color);
 }
-.consult-today a , .about{
+.consult-today a,
+.about {
   color: var(--alt-text-color);
 }
 .consult-today {
@@ -207,7 +208,7 @@ label {
 .service-icon {
   display: grid;
   grid-template-columns: 200px 1fr 2fr;
-  gap: 65px;
+  gap: 75px;
   flex-wrap: wrap;
   margin: -600px 0 0 0;
   justify-content: space-around;
@@ -227,7 +228,8 @@ label {
   margin-left: 60%;
 }
 .providerss,
-.testimonials {
+.testimonials,
+.about-us {
   margin-top: 320px;
 }
 .providers a,
@@ -253,4 +255,7 @@ label {
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
+}
+.Herbal {
+  color: var(--text-color);
 }
