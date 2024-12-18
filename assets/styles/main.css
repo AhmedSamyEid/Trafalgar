@@ -178,7 +178,9 @@ label {
   color: var(--text-color);
 }
 .consult-today a,
-.about {
+.about,
+footer,
+.nv a {
   color: var(--alt-text-color);
 }
 .consult-today {
@@ -258,4 +260,20 @@ label {
 }
 .Herbal {
   color: var(--text-color);
+}
+footer {
+  text-align: start;
+  margin-top: 1200px;
+  background-color: var(--main-color);
+  height: 400px;
+}
+
+.nv {
+  margin: 100px 20px 0 0;
+  line-height: 40px;
+}
+  .help {
+    font-size: var(--h4-size);
+  margin: 100px 0 0 0;
+  line-height: 60px;
 }
